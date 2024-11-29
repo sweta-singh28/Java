@@ -7,7 +7,7 @@ class ConditionalStatements {
         else
             System.out.println("night");    
             
-            
+        
        int age = 30;
        if(age>18)
            System.out.println("can vote");     

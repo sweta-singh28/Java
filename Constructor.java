@@ -7,6 +7,11 @@ class Student{
         System.out.println(this.name);
         System.out.println(this.age);
     }
+    
+    //Non parameterized Constructor
+    Student(){
+        System.out.println("constructor called");
+    }
 
     //parameterized constructor
    // Student(String name, int age){
@@ -21,9 +26,9 @@ class Student{
     }
     
     //empty constructor
-    Student(){
+    //Student(){
 
-    }
+   // }
 
 
 }
